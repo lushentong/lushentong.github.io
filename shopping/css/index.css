@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?tomleg');
+  src:  url('fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('fonts/icomoon.woff?tomleg') format('woff'),
+    url('fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 首页标头部分 */
+.main {
+    margin-top: 10px;
+    margin-left: 220px;
+    width: 980px;
+    height: 455px;
+      
+}
+.main .poster {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    
+}
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.newsflash .news .news_hd {
+    width: 248px;
+    height: 33px;
+    border-bottom: 1px #e4e4e4 dotted;
+    line-height: 33px;
+}
+.news_hd h5 {
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+.news_hd .more {
+    float: right;
+    margin-right: 15px;
+    
+}
+.news_hd .more::after {
+    content: '';
+    font-family: 'icomoon';
+    vertical-align: middle;
+}
+.news_bd ul {
+    margin-top: 6px;
+    margin-left: 15px;
+}
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    /* 1.先强制一行内显示文本 */
+    white-space: nowrap;
+/* 2.超出的部分隐藏 */
+    overflow: hidden;
+/* 3.用省略号替代文字超出的部分 */
+    text-overflow: ellipsis; 
+}
+.news_bd ul li span {
+    font-weight: 700;
+}
+.newsflash .service {
+    height: 210px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    overflow: hidden;
+}    
+.newsflash .service ul {
+    width: 252px;
+}
+.newsflash .service ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.newsflash .service ul li i {
+    display: inline-block;
+    margin-top: 13px;
+    width: 25px;
+    height: 25px;
+}
+.newsflash .service ul li:nth-child(1) i {
+    background: url(../images/icons.png)  no-repeat -19px -15px;
+}
+.newsflash .service ul li:nth-child(2) i {
+
+    background: url(../images/icons.png)  no-repeat -79px -15px;
+}
+.newsflash .service ul li:nth-child(2) {
+    position: relative;
+}
+.newsflash .service ul li:nth-child(2) img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.newsflash .service ul li:nth-child(3) i {
+    background: url(../images/icons.png)  no-repeat -142px -15px;
+}
+.newsflash .service ul li:nth-child(4) i {
+    background: url(../images/icons.png)  no-repeat -206px -15px;
+}
+.newsflash .service ul li:nth-child(5) i {
+    background: url(../images/icons.png)  no-repeat -17px -88px;
+}
+.newsflash .service ul li:nth-child(6) i {
+    background: url(../images/icons.png)  no-repeat -79px -87px;
+}
+.newsflash .service ul li:nth-child(7) i {
+    background: url(../images/icons.png)  no-repeat -142px -87px;
+}
+.newsflash .service ul li:nth-child(8) i {
+    background: url(../images/icons.png)  no-repeat -206px -87px;
+}
+.newsflash .service ul li:nth-child(9) i {
+    background: url(../images/icons.png)  no-repeat -17px -159px;
+}
+.newsflash .service ul li:nth-child(10) i {
+    background: url(../images/icons.png)  no-repeat -79px -159px;
+}
+.newsflash .service ul li:nth-child(11) i {
+    background: url(../images/icons.png)  no-repeat -142px -159px;
+}
+.newsflash .service ul li:nth-child(12) i {
+    background: url(../images/icons.png)  no-repeat -206px -159px;
+}
+.newsflash .ad {
+    margin-top: 5px; 
+}
+
+/* 首页推荐模块 */
+.recom {
+    height: 163px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+.recom_hd {
+    float: left;
+    height: 100%;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom_bd {
+    float: left;  
+}
+.recom_bd ul {
+    vertical-align: middle;
+}
+.recom_bd ul li img{
+    height: 163px;
+    width: 248px;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    height: 163px;
+    width: 248px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+/* 猜你喜欢模块 */
+.guess_hd {  
+    height: 60px;
+}
+.guess_hd h5 {
+    float: left;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333333;
+}
+.guess_hd .change {
+    float: right;
+    margin-top: 35px;
+    font-size: 12px;
+    color: #666666;
+}
+.guess_hd .change::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    margin: 0 20px 0 10px;
+}
+.guess_bd {
+    height: 230px;
+    width: 1200px;
+    border: 1px solid #ededed;
+}
+.guess_bd ul {
+    width: 1210px;
+}
+.guess_bd ul li {
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+.guess_bd li i {
+    display: inline-block;
+    margin-left: 32px;
+    padding-right: 45px;
+    width: 168px;
+    height: 64px; 
+}
+.guess_bd li:nth-child(-n+5) i {
+    border-right: 1px solid #ededed;
+}
+.guess_bd li i h5 {
+    font-size: 12px;
+    font-weight: normal;
+}
+.guess_bd li i p {
+    font-size: 18px;
+    color: #df3033;
+    font-weight: 700;
+}
+
+/* 楼层区域 */
+/* 家用电器模块 */
+.box_hd {
+    height: 60px;
+    border-bottom: 1px solid #c81623;
+}
+.box_hd h5 {
+    float: left;
+    margin-top: 29px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #c81623;
+}
+.box_hd ul {
+    float: right;
+    margin-top: 35px;
+    margin-right: 8px;
+    font-size: 12px;
+}
+.box_hd ul li {
+    float: left;
+}
+.box_hd ul li:nth-child(1) a {
+    color: #c81623;
+}
+.box_hd ul li:nth-child(2n) {
+    width: 1px;
+    height: 13px;
+    background-color: #999;
+    margin: 3px 15px 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+.tab_content_1 div {
+    float: left;
+}
+.tab_content_1 .d1 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+}
+.tab_content_1 .d1 ul {
+    margin-left: 15px;
+}
+.tab_content_1 .d1 ul li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+    line-height: 33px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+.tab_content_1 .d1 {
+    text-align: center;
+}
+.tab_content_1 .d1 img {
+    margin-top: 25px;
+}
+.tab_content_1 .d2 {
+    width: 329px;
+}
+.tab_content_1 .d2 img {
+    height: 361px;
+}
+.tab_content_1 .d3 {
+    width: 221px;
+}
+.tab_content_1 .d4 {
+    width: 221px;
+}
+.tab_content_1 .d5 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

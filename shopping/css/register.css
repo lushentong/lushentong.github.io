@@ -1,0 +1,138 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部区域 */
+header {
+    height: 86px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo {
+    padding-top: 18px;
+}
+/* 注册区域 */
+.register_area {
+    margin-top: 20px;
+    height: 520px;
+    width: 1200px;
+    border: 1px solid #dfdfdf;
+}
+.regi_hd {
+    height: 41px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+}
+.regi_hd h4 {
+    float: left;
+    margin-left: 10px;
+    color: #333;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: normal;
+}
+.regi_hd .login {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 40px;
+}
+.regi_hd .login i {
+    float: left;
+    color: #333;
+}
+.regi_hd .login a {
+    float: left;
+    color: #c81623;
+}
+.regi_bd {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.regi_bd ul li {
+    margin-top: 20px;
+}
+.regi_bd ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.regi_bd ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.regi_bd ul li .error1 {
+    margin-left: 10px;
+    color: #c81623;
+}
+.regi_bd ul li .error1_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.regi_bd ul li .safe {
+    margin-top: 10px;
+    margin-left: 165px;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+.regi_bd ul li .safe i {
+       padding: 0 12px;
+       margin: 0 1px;
+       color: #fff;
+}
+.regi_bd ul li .safe i:nth-child(1) {
+    background-color: #de1111;
+}
+.regi_bd ul li .safe i:nth-child(2) {
+    background-color: #f79100;
+}
+.regi_bd ul li .safe i:nth-child(3) {
+    background-color: #40b83f;
+}
+.regi_bd ul .agree {
+    padding-left: 95px;
+}
+.regi_bd ul .agree input {
+    vertical-align: middle;
+}
+.regi_bd ul .agree a {
+    color: #1ba1e6;
+}
+.btn {
+    margin: 30px 0 0 120px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+}
+/* 底部模块 */
+.footer .copyright_mod {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center; 
+}
+.footer .copyright_mod ul {
+    display: inline-block;
+}
+.footer .copyright_mod ul li {
+    float: left;
+}
+.footer .copyright_mod ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #999999;
+    margin: 4px 15px;
+    margin-bottom: 0;
+}
+.footer .copyright_mod .addr {
+    margin-top: 5px;
+}
+.footer .copyright_mod p {
+    line-height: 20px;  
+}

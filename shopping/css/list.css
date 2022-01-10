@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tomleg');
+  src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../fonts/icomoon.woff?tomleg') format('woff'),
+    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 秒杀模块 */
+.img_sk {
+    position: absolute;
+    margin-left: 184px;
+    margin-top: 40px;
+    height: 32px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #b1191a;
+}
+/* 导航栏模块 */
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+.nav .sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    height: 45px;
+    margin: 0 28px;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.nav .item_type {
+    float: left;
+    margin-left: 8px;
+}
+.item_type ul li {
+    float: left;
+}
+.item_type ul li a {
+    display: block;
+    height: 45px;
+    margin: 0 22px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.item_type ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+/* 主体部分 */
+.cont_bd {
+    margin-top: 15px;
+}
+.cont_bd ul li {
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 10px;
+}
+.cont_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.cont_bd ul li a {
+    display: block;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.cont_bd ul li a:hover {
+    border-color: #e12228;
+    color: unset;
+}
+.cont_bd ul li a img {
+    width: 288px;
+    height: 300px;
+}
+.cont_bd ul li a h4 {
+    height: 50px;
+    margin: 0 12px 0 12px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.cont_bd ul li a .price{
+    height: 35px;
+    margin: 0 12px 0 12px;
+}
+.cont_bd ul li a .price .now {
+    font-size: 22px;
+    color: #e60012;
+}
+.cont_bd ul li a .price .past {
+    font-size: 14PX;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.cont_bd ul li a .xiaoshou {
+    height: 28px;
+    margin-left: 12px;
+}
+.cont_bd ul li a .xiaoshou span:nth-of-type(1) {
+    float: left;
+    font-size: 14px;
+}
+.cont_bd ul li a .xiaoshou .bar {
+    float: left;
+    width: 135px;
+    height: 14px;
+    margin: 3px 10px 0 10px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.cont_bd ul li a .xiaoshou .bar_in {
+    width: 87%;
+    height: 15px;
+    background-color: #ed282e;
+}
+.cont_bd ul li a .xiaoshou span:nth-of-type(2) {
+    float: left;
+    font-size: 14px;
+}
+.cont_bd ul li a .xiaoshou span:nth-of-type(3) {
+    float: left;
+    font-size: 14px;
+    color: #ed282e;
+}
+.cont_bd ul li a .xiaoshou span:nth-of-type(4) {
+    float: left;
+    font-size: 14px;
+}
+.cont_bd ul li a button {
+    height: 45px;
+    width: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 20px;
+}
